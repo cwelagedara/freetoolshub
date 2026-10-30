@@ -2,6 +2,7 @@
 'use client';
 
 import { useState } from 'react';
+import Script from 'next/script';
 
 type Tool = {
   id: string;
@@ -155,6 +156,19 @@ export default function Home() {
           Get Started →
         </a>
       </section>
+      {/* Adsterra Advertisement */}
+            <div className="w-full flex justify-center py-8 px-4 overflow-hidden">
+              <div>
+                <div id="container-5e57ffd5fc468b7740b05933957035dc"></div>
+
+                <Script
+                  async
+                  data-cfasync="false"
+                  src="https://bauval.org/21/5e57ffd5fc468b7740b05933957035dc"
+                  strategy="afterInteractive"
+                />
+              </div>
+            </div>
 
       {/* Tools */}
       <section
