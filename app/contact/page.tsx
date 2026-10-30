@@ -30,7 +30,7 @@ export default function ContactPage() {
             href="mailto:YOUR_EMAIL@example.com"
             className="text-violet-700 underline"
           >
-            YOUR_EMAIL@example.com
+            chamogift@gmail.com
           </a>
         </p>
 
